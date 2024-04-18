@@ -19,6 +19,8 @@ Secret
 
 <div class="informalexample">
 
+**Base Url**
+
 To make a request to the Species Holdings API, you will need to use the
 following base URL:
 
