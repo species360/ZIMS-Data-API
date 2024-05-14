@@ -30,7 +30,7 @@ following base URL:
 
 <div class="informalexample">
 
-**GET** /v1/taxa/{taxonomy}/ex-situ-summary
+**GET** ./v1/taxa/{taxonomy}/ex-situ-summary
 
 | Parameter  | Description                                    |
 |------------|------------------------------------------------|
@@ -65,11 +65,15 @@ Example JSON Resposne:
   "countries" : [ {
     "countryName" : "United States",
     "countryISO" : "US",
+    "countryLatitudeAverage" : 38.0,
+    "countryLongitudeAverage" : -97.0,
     "institutionCount" : 3,
     "animalCount" : 43
   }, {
     "countryName" : "Japan",
     "countryISO" : "JP",
+    "countryLatitudeAverage" : 36.0,
+    "countryLongitudeAverage" : 138.0,
     "institutionCount" : 1,
     "animalCount" : 54
   } ],
@@ -85,6 +89,13 @@ Example JSON Resposne:
   } ]
 }
 ```
+
+Failed Request Response Example:
+
+    {
+    "status": 404,
+    "message": "No taxonomy found for Echinotrit anderson"
+    }
 
 </div>
 
