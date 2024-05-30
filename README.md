@@ -16,7 +16,7 @@ include an `Authorization` header with a valid API key in the format
 To make a request to the Species Holdings API, you will need to use the
 following base URL:
 
-    https://api.species360.org/
+    https://api.species360.org/data/
 
 **API endpoints**
 
@@ -148,7 +148,7 @@ studbook</p></td>
 
 Example Request:
 
-    https://api.species360.org/v1/taxa/Echinotriton andersoni/ex-situ-summary
+    https://api.species360.org/data/v1/taxa/Echinotriton andersoni/ex-situ-summary
 
 Example JSON Response:
 
