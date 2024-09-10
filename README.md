@@ -24,15 +24,15 @@ following base URL:
 
 **GET** ./v1/taxa/{taxonomy}/ex-situ-summary
 
-| Parameter  | Description                                    |
-|------------|------------------------------------------------|
-| `taxonomy` | The taxonomy of the animal you are looking for |
+| Parameter  | Description                                  |
+|------------|----------------------------------------------|
+| `taxonomy` | Scientific name of taxon to get holdings for |
 
 **GET** ./v1/sis/{sisID}/ex-situ-summary
 
-| Parameter | Description                                 |
-|-----------|---------------------------------------------|
-| `sisID`   | The sisId of the animal you are looking for |
+| Parameter | Description                         |
+|-----------|-------------------------------------|
+| `sisID`   | SIS ID of taxon to get holdings for |
 
 JSON Response (for both endpoints):
 
